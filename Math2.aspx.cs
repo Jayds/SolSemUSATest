@@ -13,38 +13,34 @@ using System.Xml.Linq;
 
 namespace calculator
 {
-    public partial class Math : System.Web.UI.Page
+    public partial class Math21 : System.Web.UI.Page
+
     {
         private int number1 = 0;
         private int number2 = 0;
-        private int subResult = 0;
+        private int product = 0;
 
         protected void Page_Load(object sender, EventArgs e)
         {
 
         }
 
-        protected void TextBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
-            number1 = System.Convert.ToInt32(txt_box3.Text);
-            number2 = System.Convert.ToInt32(txt_box4.Text);
-            subResult = number1 - number2;
-            txt_box_result.Text = subResult.ToString();
+            number1 = System.Convert.ToInt32(txt_box1_pge3);
+            number2 = System.Convert.ToInt32(txt_box2_pge3);
+            product = number1 * number2;
+            txt_box3_pge3.Text = product.ToString();
         }
 
-        protected void btn_gbk1_Click(object sender, EventArgs e)
+        protected void btn2_pge3_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("~/Math.aspx");
+        }
+
+        protected void btn3_pge3_Click(object sender, EventArgs e)
         {
             Response.Redirect("~/Default.aspx");
-        }
-
-        protected void btn3_pge2_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("~/Math2.aspx");
         }
     }
 }

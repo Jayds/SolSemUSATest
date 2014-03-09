@@ -24,7 +24,10 @@
         <br />
         <br />
         <asp:Button ID="btn_gbk1" runat="server" onclick="btn_gbk1_Click" 
-            Text="GoBacktoHomePage" />
+            Text="HomePage" />
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Button ID="btn3_pge2" runat="server" onclick="btn3_pge2_Click" 
+            Text="NextPage&gt;&gt;" />
         <br />
     
     </div>

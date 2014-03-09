@@ -11,7 +11,7 @@
 namespace calculator {
     
     
-    public partial class Math {
+    public partial class Math21 {
         
         /// <summary>
         /// form1 control.
@@ -23,22 +23,22 @@ namespace calculator {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// lbl_num3 control.
+        /// Lbl1_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label lbl_num3;
+        protected global::System.Web.UI.WebControls.Label Lbl1_pge3;
         
         /// <summary>
-        /// txt_box3 control.
+        /// txt_box1_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_box3;
+        protected global::System.Web.UI.WebControls.TextBox txt_box1_pge3;
         
         /// <summary>
         /// Label1 control.
@@ -50,48 +50,48 @@ namespace calculator {
         protected global::System.Web.UI.WebControls.Label Label1;
         
         /// <summary>
-        /// txt_box4 control.
+        /// txt_box2_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_box4;
+        protected global::System.Web.UI.WebControls.TextBox txt_box2_pge3;
         
         /// <summary>
-        /// Btn_sub control.
+        /// btn1_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button Btn_sub;
+        protected global::System.Web.UI.WebControls.Button btn1_pge3;
         
         /// <summary>
-        /// txt_box_result control.
+        /// txt_box3_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox txt_box_result;
+        protected global::System.Web.UI.WebControls.TextBox txt_box3_pge3;
         
         /// <summary>
-        /// btn_gbk1 control.
+        /// btn2_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn_gbk1;
+        protected global::System.Web.UI.WebControls.Button btn2_pge3;
         
         /// <summary>
-        /// btn3_pge2 control.
+        /// btn3_pge3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button btn3_pge2;
+        protected global::System.Web.UI.WebControls.Button btn3_pge3;
     }
 }

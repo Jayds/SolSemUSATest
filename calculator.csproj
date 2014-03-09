@@ -57,6 +57,7 @@
     <Content Include="Build.xml" />
     <Content Include="Default.aspx" />
     <Content Include="Math.aspx" />
+    <Content Include="Math2.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -74,6 +75,13 @@
     </Compile>
     <Compile Include="Math.aspx.designer.cs">
       <DependentUpon>Math.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Math2.aspx.cs">
+      <DependentUpon>Math2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Math2.aspx.designer.cs">
+      <DependentUpon>Math2.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
