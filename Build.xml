@@ -1,12 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 
+  <ItemGroup>
+    <BuildArtifactsDir Include="BuildArtifacts\" />
+    <SolutionFile Include="calculator.sln" />
+    <NUnitConsole Include="C:\Program Files (x86)\NUnit 2.6.3\bin\nunit-console.exe" />
+    <UnitTestsDLL Include="BuildArtifacts\calculator_tests.dll" />
+    <TestResultsPath Include="BuildArtifacts\TestResults.xml" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Release</Configuration>
+    <BuildPlatform Condition=" '$(BuildPlatform)' == '' ">Any CPU</BuildPlatform>
+  </PropertyGroup>
+
+  <Target Name="Init" DependsOnTargets="Clean">
+    <MakeDir Directories="@(BuildArtifactsDir)" />
+  </Target>
+
   <Target Name="Clean">
-    <ItemGroup>
-      <BinFiles Include="bin\*.*"/>
-    </ItemGroup>
-    <Delete Files="@(BinFiles)"/>
-    
-    
-    </Target>
+    <RemoveDir Directories="@(BuildArtifactsDir)" />
+  </Target>
+
+  <Target Name="Compile" DependsOnTargets="Init">
+    <MSBuild Projects="@(SolutionFile)" Targets="Rebuild"
+             Properties="OutDir=%(BuildArtifactsDir.FullPath);Configuration=$(Configuration);Platform=$(BuildPlatform)" />
+  </Target>
+
+  <Target Name="RunUnitTests" DependsOnTargets="Compile">
+    <Exec Command='"@(NUnitConsole)" @(UnitTestsDLL) /xml=@(TestResultsPath)' />
+  </Target>
+  
   </Project>
+
