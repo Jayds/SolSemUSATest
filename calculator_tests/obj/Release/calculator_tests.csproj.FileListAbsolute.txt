@@ -1,0 +1,5 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\SolSemTest\BuildArtifacts\calculator_tests.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\SolSemTest\BuildArtifacts\calculator_tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Release\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Release\calculator_tests.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Release\calculator_tests.pdb

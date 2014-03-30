@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\bin\Debug\calculator_tests.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\bin\Debug\calculator_tests.pdb
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\bin\Debug\nunit.framework.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\bin\Debug\nunit.framework.xml
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Debug\calculator_tests.dll
+C:\Users\Admin\Documents\Visual Studio 2008\Projects\calculator_tests\obj\Debug\calculator_tests.pdb
